@@ -94,4 +94,5 @@ RUN pip install --break-system-packages \
 ADD --chown=$G4F_USER:$G4F_USER g4f $G4F_DIR/g4f
 
 # Expose ports
-EXPOSE 8080 1337
+# EXPOSE 8080 1337
+EXPOSE 1337
